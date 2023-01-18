@@ -6,20 +6,58 @@
     background-color: #8489B2;
 }
 
+.header2 {
+    background-color: #8489B2;
+    display: flex;
+    padding: 100px 200px;
+}
+
 .title {
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 1000;
+    color: #470464;
+}
+
+.welcome {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    max-width: 350px;
+    font-size: 28px;
     font-weight: 900;
 }
 
+.subtext {
+    max-width: 300px;
+}
+
+img {
+    width: 300px;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .hlinks {
+    font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     display: flex;
     padding: 0px;
     gap: 40px;
     font-size: 18px;
+    font-weight: 900;
 }
 
 a {
     text-decoration: none;
+    color: #470464;
 }
