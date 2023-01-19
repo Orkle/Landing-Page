@@ -7,15 +7,15 @@
 }
 
 .header2 {
-    background-color: #8489B2;
+    background-color: #B3B7DB;
     display: flex;
     justify-content: space-between;
-    padding: 100px 200px;
+    padding: 25px 200px;
 }
 
 .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-family: KiTestRings, Arial, Helvetica;
+    font-size: 30px;
     font-weight: 1000;
     color: #470464;
 }
@@ -28,6 +28,7 @@
 }
 
 .info {
+    font-family: "JMH Typewriter", Arial, Helvetica;
     display: flex;
     font-size: 34px;
     font-weight: 900;
@@ -35,8 +36,18 @@
 }
 
 .subtext {
+    font-family: "JMH Typewriter", Arial, Helvetica;
     font-size: 18px;
     font-weight: 500;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #470464;
+    margin-top: 16px;
+    color: white;
 }
 
 img {
