@@ -5,6 +5,7 @@ body {
 
 .header1 {
     display: flex;
+    flex-wrap: wrap;
     padding: 0px 200px;
     align-items: center;
     justify-content: space-between;
@@ -33,6 +34,7 @@ body {
 .icon {
     width: 50px;
     margin: 10px;
+    border-radius: 100%;
 }
 
 .welcome {
@@ -58,8 +60,8 @@ body {
 
 .btitle {
     text-align: center;
-    font-family: Arial, Helvetica;
-    font-size: 24px;
+    font-family: "JMH Typewriter", Arial, Helvetica;
+    font-size: 32px;
     font-weight: 900;
     margin: 20px;
 }
@@ -86,7 +88,10 @@ img {
 
 .games {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 32px
 }
 
 .zelda {
@@ -102,7 +107,12 @@ img {
 .sekiro {
     width: 175px;
     height: 175px;
-    border-radius: 15%;
+    border-radius: 20%;
+}
+
+.minecraft {
+    width: 175px;
+    height: 175px;
 }
 
 .hlinks {
