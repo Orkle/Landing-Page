@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header1 {
     display: flex;
     padding: 0px 200px;
@@ -13,11 +18,21 @@
     padding: 25px 200px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .title {
-    font-family: KiTestRings, Arial, Helvetica;
+    font-family: KiTestRings Arial, Helvetica;
     font-size: 30px;
     font-weight: 1000;
     color: #470464;
+}
+
+.icon {
+    width: 50px;
+    margin: 10px;
 }
 
 .welcome {
@@ -41,6 +56,14 @@
     font-weight: 500;
 }
 
+.btitle {
+    text-align: center;
+    font-family: Arial, Helvetica;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 20px;
+}
+
 button {
     padding: 8px 16px;
     border: none;
@@ -51,6 +74,7 @@ button {
 }
 
 img {
+    display: flex;
     width: 300px;
 }
 
@@ -58,6 +82,27 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.games {
+    display: flex;
+    justify-content: space-around;
+}
+
+.zelda {
+    width: 175px;
+    height: 175px;
+}
+
+.mario {
+    width: 175px;
+    height: 175px;
+}
+
+.sekiro {
+    width: 175px;
+    height: 175px;
+    border-radius: 15%;
 }
 
 .hlinks {
