@@ -72,9 +72,16 @@ button {
     padding: 8px 16px;
     border: none;
     border-radius: 8px;
-    background: none;
+    background: #470464;
     margin-top: 16px;
+    cursor: pointer;
     color: white;
+    box-shadow: 0px 4px #999;
+}
+
+button:active {
+    box-shadow: 0px 1px;
+    transform: scale(0.98);
 }
 
 img {
