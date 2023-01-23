@@ -145,6 +145,43 @@ img {
     font-weight: 900;
 }
 
+.quote {
+    font-size: 44px;
+    padding: 100px 80px;
+    margin-top: 30px;
+    background-color: #c6c9e0;
+    font-family: "JMH Typewriter", Arial, Helvetica;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-family: "JMH Typewriter", Arial, Helvetica;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(80, 91, 238);
+    margin: 80px;
+    padding: 40px;
+}
+
+.follow {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #c6c9e0;
+}
+
 a {
     text-decoration: none;
     color: #470464;
